@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoda speak</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      textarea {
+        width: 40%;
+        display: block;
+        margin: auto;
+        height: 10vh;
+        padding: 1rem;
+        border-bottom-left-radius: 4px;
+      }
+
+      #output {
+        border: 1px solid black;
+        height: 10vh;
+        width: 40%;
+        padding: 1rem;
+        margin: auto;
+        background-color: white;
+        border-bottom-left-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="match">Talk Yoda</h1>
+    <p>
+      Hello my name is Yoda, i have very unique and funny language of my own<br />
+      and I can translate your text in my language, do you wanna give it a try?
+      <br />
+      -developer
+      <a
+        class="devlink"
+        href="https://www.instagram.com/tejasjadhav___/"
+        target="blank"
+        >Tejas</a
+      >
+    </p>
+    <img class="yoda" src="Yoda.png" alt="yoda img" />
+    <textarea id="txt-input" placeholder="enter your text here"></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger">Output will come here 👇</div>
+    <textarea disabled id="output"></textarea>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

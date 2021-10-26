@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+body{
+    background-color: rgb(190, 15, 190);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+#btn-translate{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:rgb(14, 185, 14);
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.text{
+    padding-bottom: 20px;
+}
+.yoda{
+    height: 200px;
+}
+.head{
+    color:rgb(14, 185, 14);
+    margin: 0px;
+}
+.devlink{
+    text-decoration: none;
+    color: rgb(216, 124, 124);
+}
+.match{
+    color: rgb(14, 185, 14);;
+}
